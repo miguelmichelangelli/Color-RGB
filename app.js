@@ -26,7 +26,7 @@ function actualizarColor(rojo, verde, azul) {
 
 //listener for red input
 inputRojo.addEventListener('change', (e) => {
-    let rojo = e.target.value
+    rojo = e.target.value
     textoRojo.innerText = rojo
 
     actualizarColor(rojo, verde, azul)
@@ -34,7 +34,7 @@ inputRojo.addEventListener('change', (e) => {
 
 //listener for green input
 inputVerde.addEventListener('change', (e) => {
-    let verde= e.target.value
+    verde= e.target.value
     textoVerde.innerText= verde
 
     actualizarColor(rojo, verde, azul)
@@ -42,7 +42,7 @@ inputVerde.addEventListener('change', (e) => {
 
 //listener for blue
 inputAzul.addEventListener('change', (e) => {
-    let azul= e.target.value
+    azul= e.target.value
     textoAzul.innerText= azul
 
     actualizarColor(rojo, verde, azul)
